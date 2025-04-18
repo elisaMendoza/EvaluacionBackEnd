@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mostrar Datos</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #ecacd7;
+        }
+    </style>
+</head>
+<body>
+    <h1>Datos del Registro</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Año</th>
+                <th>Marca</th>
+                <th>Color</th>
+                <th>Combustible</th>
+                <th>Número de Puertas</th>
+                <th>Tracción</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>{{ anno }}</td>
+                <td>{{ marca }}</td>
+                <td>{{ color }}</td>
+                <td>{{ combustible }}</td>
+                <td>{{ numpuertas }}</td>
+                <td>{{ traccion }}</td>
+            </tr>
+    </table>
+</body>
+</html>
